@@ -10,16 +10,18 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
+      <div className="text-center bg-slate-800 p-8 my-6 rounded-lg">
         <div className="flex items-center">
-          <Image
-            src="/logo.png"
-            width={40}
-            height={40}
-            className="mx-auto"
-            alt={"logo"}
-          />
-          <div className=" md:flex md:items-center pr-4">
+          <div className=" md:block hidden pr-4 ">
+            <Image
+              src="/logo.png"
+              width={40}
+              height={40}
+              className="mx-auto rounded-lg"
+              alt={"logo"}
+            />
+          </div>
+          <div className=" md:pl-0 pl-12 md:flex md:items-center pr-4">
             <Link href={"/"}>
               <h1 className="text-3xl font-bold text-red-600 pr-4">
                 miumiu&apos;s Blog
