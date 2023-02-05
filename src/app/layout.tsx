@@ -19,7 +19,7 @@ export default function RootLayout({
             className="mx-auto"
             alt={"logo"}
           />
-          <div className=" flex items-center pr-4">
+          <div className=" md:flex md:items-center pr-4">
             <Link href={"/"}>
               <h1 className="text-3xl font-bold text-red-600 pr-4">
                 miumiu&apos;s Blog
