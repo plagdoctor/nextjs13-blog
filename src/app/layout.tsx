@@ -21,7 +21,7 @@ export default function RootLayout({
               alt={"logo"}
             />
           </div>
-          <div className=" md:pl-0 pl-12 md:flex md:items-center pr-4">
+          <div className=" md:pl-0 pl-14 md:flex md:items-center pr-4">
             <Link href={"/"}>
               <h1 className="text-3xl font-bold text-red-600 pr-4">
                 miumiu&apos;s Blog
